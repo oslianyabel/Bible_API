@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 from openai import OpenAI
-import os, time, json, mongo, requests
+import os, time, json
 
 load_dotenv()
 
