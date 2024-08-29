@@ -51,5 +51,6 @@ def crear_app():
 
 if __name__ == '__main__':
     app = crear_app()
-    #app.run(debug=True, host='0.0.0.0', port=3029)
-    serve(app, host='0.0.0.0', port=3040)
+    PORT_API = os.getenv("PORT_API")
+    serve(app, host='0.0.0.0', port=PORT_API)
+    #app.run(debug=True, host='0.0.0.0', port=PORT_API)
