@@ -1,12 +1,12 @@
 {
     "apps": [
       {
-        "name": "api_jumobot",
+        "name": "api_bible",
         "script": "./api.py",
         "interpreter": "python3",
         "env": {
           "FLASK_ENV": "production",
-          "PORT": 3028
+          "PORT": 3039
         }
       }
     ]
